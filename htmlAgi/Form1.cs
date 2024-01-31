@@ -71,7 +71,8 @@ namespace htmlAgi
                 }
             }
             catch (Exception ex)
-            {
+            {   
+                //Hata mesajý
                 Console.WriteLine(ex.StackTrace);
                 MessageBox.Show($"Bir hata oluþtu: {ex.Message}");
             }
